@@ -1,3 +1,3 @@
-### P1: initial setup, change component name by adding xx
+### W09-P1: initial setup, change component name by adding xx
 
 ![](w09-p1.png)
