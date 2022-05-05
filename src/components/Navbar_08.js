@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../logo.svg'
 
-const Navbar_xx = () => {
+const Navbar_08 = () => {
   return (
     <nav className='navbar'>
       <div className='nav-center'>
@@ -22,4 +22,4 @@ const Navbar_xx = () => {
   )    
 }
 
-export default Navbar_xx
+export default Navbar_08

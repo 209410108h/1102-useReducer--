@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Loading_xx = () => {
+const Loading_08 = () => {
  return (
   <div className="loader">
   </div>
  )
 }
 
-export default Loading_xx
+export default Loading_08

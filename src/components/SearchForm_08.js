@@ -1,13 +1,13 @@
 import React, { useRef, useEffect} from 'react'
-import { useGlobalContext } from '../context'
+import { useGlobalContext } from '../context/context_08'
 
-const SearchForm_xx = () => {
+const SearchForm_08 = () => {
   const { setSearchTerm } = useGlobalContext();
   const searchValue = useRef('');
 
-  useEffect(()=> {
-    searchValue.current.focus();
-  }, []);
+  // useEffect(()=> {
+  //   searchValue.current.focus();
+  // }, []);
 
   const searchCocktail = () => {
     setSearchTerm(searchValue.current.value);
@@ -35,4 +35,4 @@ const SearchForm_xx = () => {
   )
 }
 
-export default SearchForm_xx
+export default SearchForm_08

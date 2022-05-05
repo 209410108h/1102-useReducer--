@@ -1,13 +1,12 @@
 import React from 'react'
-import Cocktail from './Cocktail_xx'
-import Loading_xx from './Loading_xx'
-import { useGlobalContext } from '../context'
-import Cocktail_xx from './Cocktail_xx'
+import Loading_08 from './Loading_08'
+import { useGlobalContext } from '../context/context_08'
+import Cocktail_08 from './Cocktail_08'
 
-const CocktailList_xx = () => {
+const CocktailList_08 = () => {
   const { loading, cocktails } = useGlobalContext();
   if(loading){
-    return <Loading_xx />
+    return <Loading_08 />
   }
 
   if(cocktails.length < 1) {
@@ -23,7 +22,7 @@ const CocktailList_xx = () => {
       <div className="cocktails-center">
         {
           cocktails.map( (item) => {
-            return <Cocktail_xx key={item.id} {...item} />
+            return <Cocktail_08 key={item.id} {...item} />
           })
         }
       </div>
@@ -31,4 +30,4 @@ const CocktailList_xx = () => {
   )
 }
 
-export default CocktailList_xx
+export default CocktailList_08

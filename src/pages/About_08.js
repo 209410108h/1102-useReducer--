@@ -1,6 +1,6 @@
 import React from 'react'
 
-const About_xx = () => {
+const About_08 = () => {
   return (
     <section className="section about-section">
       <h1 className="section-title">About Us</h1>
@@ -11,4 +11,4 @@ const About_xx = () => {
   )
 }
 
-export default About_xx
+export default About_08

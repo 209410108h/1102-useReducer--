@@ -1,28 +1,28 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 // import pages
-import Home_xx from './pages/Home_xx'
-import About_xx from './pages/About_xx'
-import SingleCocktail_xx from './pages/SingleCocktail_xx'
-import Error_xx from './pages/Error_xx'
+import Home_08 from './pages/Home_08'
+import About_08 from './pages/About_08'
+import SingleCocktail_08 from './pages/SingleCocktail_08'
+import Error_08 from './pages/Error_08'
 // import components
-import Navbar_xx from './components/Navbar_xx'
-function App_xx() {
+import Navbar_08 from './components/Navbar_08'
+function App_08() {
   return (
     <Router>
-      <Navbar_xx />
+      <Navbar_08 />
       <Switch>
         <Route exact path='/'>
-           <Home_xx />
+           <Home_08 />
         </Route>
         <Route path="/about">
-          <About_xx />
+          <About_08 />
         </Route>
         <Route path="/cocktail/:id">
-          <SingleCocktail_xx />
+          <SingleCocktail_08 />
         </Route>
         <Route path="*">
-          <Error_xx />
+          <Error_08 />
         </Route>
 
       </Switch>
@@ -30,4 +30,4 @@ function App_xx() {
   )
 }
 
-export default App_xx
+export default App_08

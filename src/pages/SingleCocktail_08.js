@@ -1,9 +1,9 @@
 import React from 'react'
-import Loading from '../components/Loading_xx'
+import Loading_08 from '../components/Loading_08'
 import { useParams, Link } from 'react-router-dom'
 const url = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i='
 
-const SingleCocktail_xx = () => {
+const SingleCocktail_08 = () => {
   return (
     <div>
       <h2>single cocktail page </h2>
@@ -11,4 +11,4 @@ const SingleCocktail_xx = () => {
   )
 }
 
-export default SingleCocktail_xx
+export default SingleCocktail_08
